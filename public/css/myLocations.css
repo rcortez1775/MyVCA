@@ -1,0 +1,108 @@
+html,
+body {
+    background-image: url("/images/flag.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.eLine {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.nav-wrapper {
+    background-color: rgba(2, 54, 2);
+    font-family: 'Jura', sans-serif;
+}
+
+.idPortal {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 10;
+    top: 105px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.subContainer {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#logo {
+    font-size: 25px;
+}
+
+/* 
+.nav-wrapper {
+    background-color: rgb(3, 102, 3);
+    font-family: 'Jura', sans-serif;
+}
+.foundData {
+    font-family: 'Jura', sans-serif;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.inThisArea h5 {
+    background-color: rgb(69, 126, 248);
+    text-align: center;
+    font-weight: bold;
+    border: solid 1px black;
+}
+
+.moreInfo {
+    background-color: rgb(69, 126, 248);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#locationContainer {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'Jura', sans-serif;
+}
+
+.modal {
+    font-family: 'Jura', sans-serif;
+}
+
+.modal h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.modal a {
+    background-color: rgb(69, 126, 248);
+}
+
+.listFriends {
+    background-color: rgb(69, 126, 248);
+    float: right;
+    margin-top: 2px;
+}

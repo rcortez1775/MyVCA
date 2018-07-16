@@ -1,0 +1,39 @@
+.nav-wrapper {
+    background-color: rgba(2, 54, 2);
+    font-family: 'Jura', sans-serif;
+}
+
+.waves-effect {
+    background-color: rgba(2, 54, 2);
+}
+
+.bg {
+    background-image: url("/images/flag.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.eLine {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 25px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: 'Jura', sans-serif;
+    text-decoration-color: black;
+}
+

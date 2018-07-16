@@ -1,0 +1,30 @@
+.intro {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+}
+
+.waves-effect {
+    background-color: rgb(2, 54, 2);
+}
+
+.btn-floating {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bg {
+    background-image: url("/images/flag.jpeg");
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
